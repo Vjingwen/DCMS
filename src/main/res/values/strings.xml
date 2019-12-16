@@ -1,14 +1,16 @@
 <resources>
-    <string name="app_name">DCMS_staff</string>
+    <string name="app_name">DCMS_Patient</string>
     <string name="userID">User ID</string>
     <string name="enter">ENTER</string>
     <string name="ic">IC</string>
+    <string name="email">Email</string>
     <string name="phonenumber">Phone Number</string>
     <string name="address">Address</string>
     <string name="back">BACK</string>
     <string name="dialysisname">Dialysis Centre Management System</string>
     <string name="language">Language</string>
     <string name="viewprofile">Profile</string>
+    <string name="view_patient_profile">View Patient Profile</string>
     <string name="view_patient_schedule">Patient Booking Schedule</string>
     <string name="report">Report</string>
     <string name="patient_name">Name</string>
@@ -24,9 +26,11 @@
     <string name="type">Type</string>
     <string name="model_number">Model Number</string>
     <string name="weight">Weight</string>
+    <string name="latest_update">Latest Update</string>
     <string name="pic_name">PIC Name</string>
     <string name="pic_contactNum">PIC Contact Number</string>
     <string name="machine_name">Machine Name</string>
+    <string name="date_entry">Date Entry</string>
     <string name="manage_machine">Manage Machine</string>
     <string name="view_hotline_contact">View Hotline Contact</string>
     <string name="new_booking">New Booking</string>
@@ -39,41 +43,14 @@
     <string name="make_new_booking">Make New Booking</string>
     <string name="user_name">Username</string>
     <string name="user_password">Password</string>
-    <string name="pic">PIC</string>
-    <string name="change_status">Change status</string>
     <string name="forgot_password">Forgot Password</string>
-    <string name="last_updated">Last Updated</string>
-    <string name="notification" translatable="false">Notification</string>
-    <string name="dialysisType">Dialysis Type</string>
+    <string name="NoorAzibahAzizan0174632809">Noor Azibah Azizan 017-4632809</string>
+    <string name="IrnaLiza0149803369">Irna Liza 014-9803369</string>
+    <string name="NorSyazwani0147400604">Nor Syazwani 014-7400604</string>
+    <string name="Nurhazdhwa0178877830">Nur Shazdhwa 017-8877830</string>
+    <string name="Zarina0134822591">Zarina 013-4822591</string>
+    <string name="SitiNoorRoskamShamiza0194491837">Siti Noor Roskam Shamiza 019-4491837</string>
+    <string name="notification">Notification</string>
     <string name="booking_schedule">Booking Schedule</string>
-    <string name="register">Register</string>
-    <string-array name="list">
-        <item>Slot 1: 7am - 11am</item>
-        <item>Slot 2: 11am - 3pm</item>
-    </string-array>
-    <string-array name="list4">
-        <item>Slot 1: Sunday</item>
-        <item>Slot 1: Tuesday</item>
-        <item>Slot 1: Thursday</item>
-        <item>Slot 2: Saturday</item>
-        <item>Slot 2: Monday</item>
-        <item>Slot 2: Wednesday</item>
-    </string-array>
-    <string-array name="list2">
-        <item>Slot 1: Sunday, Tuesday, Thursday</item>
-        <item>Slot 2: Saturday, Monday, Wednesday</item>
-    </string-array>
-    <string-array name="list3">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-    <string name="manage_booking">Manage Booking</string>
-    <string name="patient_information">Patient Information</string>
-    <string name="edit">Edit</string>
-    <string name="patient_ID">Patient ID</string>
-    <string name="manage_booking_schedule">Manage Booking Schedule</string>
-    <string name="save">Save</string>
-    <string name="register_new_patient">Register New Patient</string>
-    <string name="next_update">Next Update</string>
+    <string name="dialysisType">Dialysis Type</string>
 </resources>

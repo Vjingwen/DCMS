@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Patient_booking_schedule">
+    tools:context=".Notification">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,7 +14,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/textView5"
             android:layout_width="364dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -23,29 +23,13 @@
             android:layout_marginBottom="10dp"
             android:foregroundGravity="center_vertical"
             android:gravity="center"
-            android:text="@string/booking_schedule"
+            android:text="@string/notification"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="39sp"
             android:textStyle="bold|italic" />
 
-        <CalendarView
-            android:id="@+id/calendarView"
+        <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
-            android:layout_marginTop="30dp"
-            android:layout_marginBottom="20dp"
-            android:layout_height="wrap_content" />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="138dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_gravity="center"
-            android:background="@drawable/button_round"
-            android:hint="@string/back"
-            android:text="BACK"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp" />
-
+            android:layout_height="match_parent" />
     </LinearLayout>
 </LinearLayout>

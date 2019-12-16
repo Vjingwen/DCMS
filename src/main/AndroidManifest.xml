@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.testdcms">
-
-    <uses-permission android:name="android.permission.INTERNET" />
+    package="com.example.dcms_staff">
 
     <application
         android:allowBackup="true"
@@ -11,26 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Manage_booking_schedule" />
-        <activity android:name=".Patient_page" />
-        <activity android:name=".Search_patient" />
-        <activity android:name=".RegisterForPatient" />
-        <activity android:name=".Patient_booking_schedule" />
-        <activity android:name=".Noification" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".LoginPage">
+        <activity android:name=".Patient_booking_schedule"></activity>
+        <activity android:name=".Notification" />
+        <activity android:name=".Patient_Profile" />
+        <activity android:name=".Patient_Homepage" />
+        <activity android:name=".Hotline_Contact" />
+        <activity android:name=".LoginPage" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Manage_machine" />
-        <activity android:name=".Scan_QR" />
-        <activity android:name=".MachineProfile" />
-        <activity android:name=".Staff_mainpage" />
-        <activity android:name=".NewBooking" />
-        <activity android:name=".Patient_profile" />
     </application>
 
 </manifest>
